@@ -25,3 +25,8 @@ Check jenkins status
 ```sh
 service jenkins status
 ```
+
+# Connecting via azcli
+```sh
+az ssh vm -i ~/.keys/workshop_key.pem --local-user shourya --ip [redacted]
+```
